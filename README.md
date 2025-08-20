@@ -36,14 +36,17 @@ i. Click on "Manage," then select "Add Roles and Features."
 
 ii. Go to "Server Roles," then select and install "Active Directory Domain Services (AD DS)."
 <img width="790" height="573" alt="Capture2" src="https://github.com/user-attachments/assets/2cf6a616-8703-477e-ab13-b938f9d2d5c0" />
-<img width="783" height="588" alt="3" src="https://github.com/user-attachments/assets/3776f8ab-eac3-4445-a09b-015e39f3cd6c" />
+<img width="783" height="588" alt="3" src="https://github.com/user-attachments/assets/34d9a778-c873-48e7-82ed-2e1b79b2e130" />
+
 
 
 iii. Go to the "Confirmation" section and click "Install."
-<img width="792" height="564" alt="Capture3" src="https://github.com/user-attachments/assets/9cdb70aa-0192-4397-9174-4c7dc971d16c" />
+<img width="800" height="562" alt="Capture3" src="https://github.com/user-attachments/assets/9f59c9e4-be31-4768-a909-2da5e8780cee" />
+
 
 iv. Once the installation is complete, click on "Promote this server to a domain controller."
-<img width="766" height="566" alt="Capture4" src="https://github.com/user-attachments/assets/5e4f38b6-795b-4594-b75c-39b724c5ee33" />
+<img width="792" height="564" alt="Capture4" src="https://github.com/user-attachments/assets/ad1dc434-cc77-46f2-a8da-646c6c50000a" />
+
 
 Why Click on "Promote This Server to a Domain Controller" in Active Directory Setup?
 After installing Active Directory Domain Services (AD DS) on Windows Server 2019, the server needs to function as a Domain Controller (DC). Clicking "Promote This Server to a Domain Controller" is necessary because:
@@ -56,7 +59,52 @@ After installing Active Directory Domain Services (AD DS) on Windows Server 2019
 Without promoting the server to a Domain Controller, the installed Active Directory services won't be functional, and the server will not manage users, groups, or policies effectively. 🚀
 
 v. Click on "Add a New Forest" and enter the root domain name with the .local extension.
-<img width="771" height="567" alt="Capture5" src="https://github.com/user-attachments/assets/27cfc6ff-905b-4d34-913d-78aec43a8dba" />
+<img width="766" height="566" alt="Capture5" src="https://github.com/user-attachments/assets/20ced06d-f2cc-4b1c-9843-018efba6c420" />
+
+vi. In the Domain Controller configuration, set and confirm the password for the domain.
+<img width="771" height="567" alt="Capture6" src="https://github.com/user-attachments/assets/acf2d009-9778-4e5a-99e5-c3f2e2536ab0" />
+
+vii. Click "Next" until you reach the prerequisites check, then click "Install."
+<img width="769" height="568" alt="Capture7" src="https://github.com/user-attachments/assets/244f69b1-72db-4689-b21b-e8b06f6d9f5b" />
+
+The VM will restart, and once it boots up, you will see that your domain has been successfully created.<br>
+After logging in, you can view the installed components and configured settings within the Active Directory environment.
+<img width="349" height="603" alt="10" src="https://github.com/user-attachments/assets/c96d8246-9984-443b-a30e-40f1eeba96db" />
+
+Step - 2
+i. Open "Active Directory Users and Computers" (ADUC).<br> <br>
+
+ii. Right-click on your domain and select "New" > "Organizational Unit" to create a new OU.
+
+What is an Organizational Unit (OU) in Active Directory? An Organizational Unit (OU) in Active Directory (AD) is a logical container used to organize and manage users, groups, computers, and other objects within a domain. It helps in structuring the directory to apply group policies and delegate administrative tasks efficiently
+
+Example of OU Structure: 📂 Company.local (Root Domain) ├── HR (OU) → Users & Computers for HR ├── IT (OU) → Users & Computers for IT Team ├── Finance (OU) → Users & Computers for Finance
+
+By using Organizational Units, businesses can structure their Active Directory efficiently, making it easier to manage users, devices, and policies. 🚀
+
+ii. I have created an Organizational Unit (OU) named Company, which contains multiple sub-OUs for Users, Groups, Computers, and Servers.
+
+iii. Steps to Create a New User
+
+<img width="453" height="395" alt="Capture21" src="https://github.com/user-attachments/assets/5fffe3e4-bf33-48cc-8b57-55c9fdb4f455" />
+
+
+Enter the password and select the checkbox below as per the company's policy.
+
+<img width="447" height="387" alt="Capture22" src="https://github.com/user-attachments/assets/f237ed1a-21b6-413b-a7fb-99b4f2ce06fe" />
+<img width="1366" height="413" alt="Capture23" src="https://github.com/user-attachments/assets/9a3e042e-ad29-4baf-88b6-7bddbee0b00a" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
