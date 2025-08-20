@@ -30,7 +30,7 @@ Creating an Organizational Unit (OU) to structure and manage directory objects.
 Adding Users, Groups, and Computer OUs for efficient identity and access management.
 This setup enables centralized authentication, authorization, and resource management, ensuring secure and efficient user administration within the domain. 🚀
 
-Step - 1
+### Step - 1
 i. Click on "Manage," then select "Add Roles and Features."
 <img width="1366" height="705" alt="Capture1" src="https://github.com/user-attachments/assets/d070ef51-e353-4d6c-a656-d02bef555b81" />
 
@@ -71,7 +71,7 @@ The VM will restart, and once it boots up, you will see that your domain has bee
 After logging in, you can view the installed components and configured settings within the Active Directory environment.
 <img width="349" height="603" alt="10" src="https://github.com/user-attachments/assets/c96d8246-9984-443b-a30e-40f1eeba96db" />
 
-Step - 2
+### Step - 2
 i. Open "Active Directory Users and Computers" (ADUC).<br> <br>
 
 ii. Right-click on your domain and select "New" > "Organizational Unit" to create a new OU.
