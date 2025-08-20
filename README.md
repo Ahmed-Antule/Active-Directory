@@ -1,79 +1,49 @@
 # Active-Directory
 
-🔹 What is Active Directory?
-
-Active Directory (AD) is a directory service developed by Microsoft for Windows domain networks.
-
-It helps organizations manage users, computers, groups, printers, and other resources in a centralized and secure way.
-
+### 🔹 What is Active Directory?
+Active Directory (AD) is a directory service developed by Microsoft for Windows domain networks.<br>
+It helps organizations manage users, computers, groups, printers, and other resources in a centralized and secure way.<br>
 First released with Windows 2000 Server, AD is now a core part of Windows Server environments.
 
-🔹 Key Features
+### 🔹 Key Features
 
-1. Centralized Management
-
+#### 1. Centralized Management
 Manage all users, computers, and policies from a single console.
 
-
-
-2. Authentication & Authorization
-
-Uses Kerberos and LDAP for secure login.
-
+#### 2. Authentication & Authorization
+Uses Kerberos and LDAP for secure login.<br>
 Ensures only authorized users can access resources.
 
-
-
-3. Group Policy
-
+#### 3. Group Policy
 Admins can control user desktops, applications, and security settings across the network.
 
-
-
-4. Scalability
-
+#### 4. Scalability
 Supports small organizations and very large enterprises with millions of objects.
 
 
-🔹 Active Directory Components
-
-1. Domain – A logical group of objects (users, computers, etc.).
-
-
-2. Tree – A collection of domains that share a common namespace.
-
-
-3. Forest – The top-level container that holds multiple trees.
-
-
-4. Organizational Units (OUs) – Subdivisions inside a domain to organize users, groups, and devices.
-
-
-5. Domain Controllers (DCs) – Servers that store and manage the AD database, handling logins and security.
-
+### 🔹 Active Directory Components
+#### 1. Domain – A logical group of objects (users, computers, etc.).
+#### 2. Tree – A collection of domains that share a common namespace.
+#### 3. Forest – The top-level container that holds multiple trees.
+#### 4. Organizational Units (OUs) – Subdivisions inside a domain to organize users, groups, and devices.
+#### 5. Domain Controllers (DCs) – Servers that store and manage the AD database, handling logins and security.
    
-🔹 Active Directory Services
-
-AD DS (Domain Services) – Core service that stores directory information.
-
-AD FS (Federation Services) – Provides single sign-on (SSO) across different systems.
-
-AD CS (Certificate Services) – Manages digital certificates.
-
-AD LDS (Lightweight Directory Services) – Directory services for applications without full AD.
-
-AD RMS (Rights Management Services) – Protects digital information from unauthorized use.
+### 🔹 Active Directory Services<br>
+#### AD DS (Domain Services) – Core service that stores directory information.
+#### AD FS (Federation Services) – Provides single sign-on (SSO) across different systems.
+#### AD CS (Certificate Services) – Manages digital certificates.<br>
+#### AD LDS (Lightweight Directory Services) – Directory services for applications without full AD.
+#### AD RMS (Rights Management Services) – Protects digital information from unauthorized use.
 
 
-🔹 Benefits of Active Directory
+### 🔹 Benefits of Active Directory
+✅ Centralized security management<br>
+✅ Single sign-on (one password for multiple services)<br>
+✅ Easy to enforce policies via Group Policy Objects (GPOs)<br>
+✅ Scales well for enterprises<br>
+✅ Enhances security with authentication & authorization<br>
 
-✅ Centralized security management
-✅ Single sign-on (one password for multiple services)
-✅ Easy to enforce policies via Group Policy Objects (GPOs)
-✅ Scales well for enterprises
-✅ Enhances security with authentication & authorization
-
-👉 Summary:
+#### 👉 Summary:
 Active Directory is the backbone of Windows enterprise networks, allowing admins to securely manage users, computers, and resources in a centralized way.
 
 
